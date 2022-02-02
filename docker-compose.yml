@@ -1,0 +1,12 @@
+version: '2'
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8073:8888"
+    volumes:
+      - /mnt/c/Users/tmgme/OneDrive/Data Science/EloGroup - Processo DS/src:/home/jovyan/src
+      - /mnt/c/Users/tmgme/OneDrive/Data Science/EloGroup - Processo DS/data:/home/jovyan/data
+    
+    container_name: EloGroup
+    

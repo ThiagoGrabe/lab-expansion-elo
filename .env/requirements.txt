@@ -1,0 +1,6 @@
+openpyxl
+pandas-profiling
+geopandas
+shapely
+descartes
+matplotlib
